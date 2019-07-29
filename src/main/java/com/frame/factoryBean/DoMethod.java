@@ -7,4 +7,9 @@ public class DoMethod implements DoMethodInter{
     public void print() {
         System.out.println("do print");
     }
+
+    @Override
+    public String printString() {
+        return "heihei";
+    }
 }

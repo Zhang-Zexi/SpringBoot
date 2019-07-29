@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class JavaConfig {
 
-    @Bean(name = "doMethodInter")
+    @Bean
     public MyFactoryBean myFactoryBean(){
         System.out.println("加载Bean工厂");
         MyFactoryBean myFactoryBean = new MyFactoryBean();

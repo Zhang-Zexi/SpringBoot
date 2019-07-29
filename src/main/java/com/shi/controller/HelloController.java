@@ -63,8 +63,10 @@ public class HelloController {
     }
 
     @RequestMapping("/factory")
-    public void factory(){
+    public String factory(){
 
-        doMethodInter.print();;
+//        doMethodInter.print();
+        System.out.println("业务代码");
+        return doMethodInter.printString();
     }
 }
